@@ -1,8 +1,8 @@
-import { HelloWorld } from "@/components/hello-world";
+import { HelloWorld } from '@/components/hello-world';
 
 export default function Home() {
   return (
-    <div className="grid items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid min-h-screen place-items-center gap-16 p-8 pb-20 font-[family-name:var(--font-geist-sans)] sm:p-20">
       <HelloWorld />
     </div>
   );
